@@ -1,5 +1,7 @@
 # Dark ShadowPlay YouTube Fix
 Lets you fix ShadowPlay videos which appear too dark when uploaded to YouTube with a simple right-click menu option on Windows Explorer
+<a href='https://ko-fi.com/lucidskofi' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+
 
 ## Usage
 1. Install [FFmpeg](https://ffmpeg.org/)
