@@ -6,7 +6,7 @@ If you find this useful, and wish to contribute, you can do so here:
 
 
 ## Usage
-1. Install [FFmpeg](https://ffmpeg.org/)
+1. Install the latest [FFmpeg](https://ffmpeg.org/)
 2. [Download the fix](https://github.com/lucids-git-goods/DarkShadowPlayYouTubeFix/raw/main/release/DarkShadowPlayYoutubeFix.zip) and Unzip 
 3. Copy **ffmpeg.exe** to the newly unzipped **DarkShadowPlayYoutubeFix** folder with the other files
 4. Run **InstallDarkShadowPlayYouTubeFix.bat**
