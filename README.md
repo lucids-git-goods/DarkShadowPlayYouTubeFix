@@ -1,4 +1,4 @@
-# Dark ShadowPlay YouTube Fix
+# Dark ShadowPlay YouTube Fix with Trimming Support
 Lets you fix ShadowPlay videos which appear too dark when uploaded to YouTube with a simple right-click menu option in Windows Explorer
 # Trim Functionality
 Allows you to trim ShadowPlay videos down to get just the parts you want. Just enter the begining and end timestamps
