@@ -1,16 +1,17 @@
-# Dark ShadowPlay YouTube Fix
+# Dark ShadowPlay YouTube Fix with Trimming Support
 Lets you fix ShadowPlay videos which appear too dark when uploaded to YouTube with a simple right-click menu option in Windows Explorer
+# Trim Functionality
+Allows you to trim ShadowPlay videos down to get just the parts you want. Just enter the begining and end timestamps
 
 If you find this useful, and wish to contribute, you can do so here:
 <a href='https://ko-fi.com/lucidskofi' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 
 ## Usage
-1. Install the latest [FFmpeg](https://ffmpeg.org/)
+1. Install the latest [FFmpeg](https://ffmpeg.org/) and add it to PATH [Tutorial](https://youtu.be/r1AtmY-RMyQ)
 2. [Download the fix](https://github.com/lucids-git-goods/DarkShadowPlayYouTubeFix/releases/tag/1.0) (just the zip file) and Unzip 
-3. Copy **ffmpeg.exe** to the newly unzipped **DarkShadowPlayYoutubeFix** folder with the other files
-4. Run **InstallDarkShadowPlayYouTubeFix.bat**
-5. Now you can right click on any MP4 file in Windows Explorer, and choose **Fix ShadowPlayed MP4 for YouTube** (You can now also delete all of the downloaded and unzipped files)
+3. Run **InstallDarkShadowPlayYouTubeFix.bat**
+4. Now you can right click on any MP4 file in Windows Explorer, and choose **Prepare ShadowPlayed MP4 for YouTube** (You can now also delete all of the downloaded and unzipped files)
 
 ## Credits
 I just made this solution painless to use with the help of dozens of stackoverflow and superuser entries, but
@@ -35,7 +36,7 @@ after:
 
 
 
-
+The Trim Functionality was contributed by [Mkeefeus](https://github.com/Mkeefeus)
 
 
 
