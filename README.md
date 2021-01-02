@@ -42,4 +42,4 @@ after:
 
 
 
-The Trim Functionality was contributed by [Mkeefeus](https://github.com/Mkeefeus)
+The trim functionality was contributed by [Mkeefeus](https://github.com/Mkeefeus)
