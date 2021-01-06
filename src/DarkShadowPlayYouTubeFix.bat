@@ -8,10 +8,5 @@ if exist "%~dp0ffmpeg.exe" (
 )
 
 %ff%  -i %arg1% -bsf:v h264_metadata=video_full_range_flag=1 -c:v copy -c:a copy  "%~dp1___temp___.mp4"
-IF NOT %ERRORLEVEL%==9009 ( 
 del %arg1%
 ren "%~dp1___temp___.mp4" "%~n1%~x1"
-) else (
-ECHO error : missing ffmpeg.exe
-pause
-)
