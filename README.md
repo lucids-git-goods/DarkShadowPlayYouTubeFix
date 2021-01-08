@@ -12,7 +12,7 @@ The fix is free, but if you find this useful and wish to contribute, it is much 
 
 ## Usage
 1. Install the latest [FFmpeg](https://ffmpeg.org/)
-2. [Download the fix](https://github.com/lucids-git-goods/DarkShadowPlayYouTubeFix/releases/tag/2.0) (just the zip file) and Unzip 
+2. [Download the fix](https://github.com/lucids-git-goods/DarkShadowPlayYouTubeFix/releases) (just the zip file) and Unzip 
 3. Either simply copy ffmpeg.exe into the **DarkShadowPlayYouTubeFix** folder, or if you prefer, [you can add FFmpeg to Windows PATH](https://youtu.be/r1AtmY-RMyQ?t=248)
 4. Run **InstallDarkShadowPlayYouTubeFix.bat**
 5. Now you can right click on any MP4 file in Windows Explorer, and choose **Prepare ShadowPlayed MP4 for YouTube** 
