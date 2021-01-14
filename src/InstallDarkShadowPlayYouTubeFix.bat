@@ -24,8 +24,6 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 ::--------------------------------------
 
-::ENTER YOUR CODE BELOW:
-
 
 xcopy "DarkShadowPlayYouTubeFix.bat" "%ProgramFiles(x86)%\DarkShadowPlayYouTubeFix\DarkShadowPlayYouTubeFix.bat*" 
 xcopy "DarkShadowPlayYouTubeFixWithTrim.bat" "%ProgramFiles(x86)%\DarkShadowPlayYouTubeFix\DarkShadowPlayYouTubeFixWithTrim.bat*" 
@@ -33,7 +31,17 @@ if exist "ffmpeg.exe" xcopy "ffmpeg.exe" "%ProgramFiles(x86)%\DarkShadowPlayYouT
 
 SetLocal
 for /f "tokens=2*" %%a in ('reg query "HKEY_CLASSES_ROOT\.mp4" /ve') do set progId=%%b
+
+if "%progId%" EQU "(value not set)" (
+for /f "tokens=2*" %%a in ('reg query "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.mp4\UserChoice"  /v ProgId') do set progId=%%b
+)
+
+if "%progId%" NEQ "(value not set)" (
 REG Add "HKEY_CLASSES_ROOT\%progId%\shell\FixShadowPlay" /f /ve /d "Prepare ShadowPlayed MP4 for YouTube"
 REG Add "HKEY_CLASSES_ROOT\%progId%\shell\FixShadowPlay\command" /f /ve /d "\"%ProgramFiles(x86)%\\DarkShadowPlayYouTubeFix\\DarkShadowPlayYouTubeFix.bat\" \"%%1\""
 REG Add "HKEY_CLASSES_ROOT\%progId%\shell\FixShadowPlayWithTrim" /f /ve /d "Prepare and trim ShadowPlayed MP4 for YouTube"
 REG Add "HKEY_CLASSES_ROOT\%progId%\shell\FixShadowPlayWithTrim\command" /f /ve /d "\"%ProgramFiles(x86)%\\DarkShadowPlayYouTubeFix\\DarkShadowPlayYouTubeFixWithTrim.bat\" \"%%1\""
+) else (
+echo "error: no default mp4 extension handler found"
+pause
+)
