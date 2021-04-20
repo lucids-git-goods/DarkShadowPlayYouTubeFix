@@ -1,9 +1,11 @@
-
 # Dark ShadowPlay YouTube Fix with Trimming Support (Deprecated)
-## Deprecated
-This fix is no longer necessary as [Nvidia has fixed the issue themselves](https://www.nvidia.com/en-us/geforce/release-notes/GFE/3_21_0/Web/gfe-v3_21_0-web-release-highlights/).  Leaving this up for a bit, so anyone who comes back looking for an update knows why it's gone.
+### Deprecated: This fix is no longer necessary as [Nvidia has fixed the issue themselves](https://www.nvidia.com/en-us/geforce/release-notes/GFE/3_21_0/Web/gfe-v3_21_0-web-release-highlights/).  Leaving this up for a bit, so anyone who comes back looking for an update knows why it's gone.
 
 
+
+
+
+## Original ReadMe:
 Lets you fix ShadowPlay videos which appear too dark when uploaded to YouTube with a simple right-click menu option in Windows Explorer
 
 The fix is free, but if you find this useful and wish to contribute, it is much appreciated:
